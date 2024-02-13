@@ -22,6 +22,6 @@
               <p class = "webtext2">Lorem ipsum </p>
             </div>
     
-All of the files above have list some useful html tags and attribute that people usually use.
+
 
     
