@@ -1,0 +1,20 @@
+img {
+    float: left;
+}
+
+
+
+p {
+    color: red;
+    text-align: center;
+    border: 5px solid #338A2E;
+    cursor: not-allowed;
+    line-height: 5px;
+    font-size: 180%;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+}

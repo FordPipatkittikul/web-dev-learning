@@ -1,0 +1,70 @@
+/* Selector {
+    Property:value
+} */
+
+* {
+    text-align: right;
+}
+
+body{
+    background-image: url(image/background.jpg);
+    background-size: cover;
+}
+
+/* select all p inside h2*/
+h2 p {
+    color: red;
+    text-align: center;
+    border: 5px solid #338A2E;
+    cursor: not-allowed;
+}
+
+/* select all p that have parent of h3 */
+#div0 > p {
+    color: red;
+    text-align: left;
+    border: 5px solid #338A2E;
+    cursor: not-allowed;
+}
+
+/* select any p that exatcly after h4 */
+h4 + p {
+    color: rgb(0, 204, 255);
+    text-align: left;
+    border: 5px solid #338A2E;
+    cursor: not-allowed;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+p {
+    color: rgb(215, 200, 228);
+}
+p {
+    color:  #16db16;
+}
+
+.webtext1:hover {
+    border: 5px dotted red;
+}
+
+.webtext:last-child {
+    border: 5px dotted yellow;
+}
+
+/* class using . */
+.webtext2:first-child {
+    border: 5px dotted red;
+}
+
+/* id using # */
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
