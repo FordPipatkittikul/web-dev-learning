@@ -6,3 +6,5 @@
     - Some elments need closed tags but some do not need it
     
 ## HTML Attribute
+    - <img src="img_girl.jpg"> for this src is attribute
+    
