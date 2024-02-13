@@ -7,4 +7,7 @@
     
 ## HTML Attribute
     - <img src="img_girl.jpg"> for this src is attribute
+
+
+Most of the files above have list some useful html tags that people usually use 
     
