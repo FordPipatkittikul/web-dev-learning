@@ -2,5 +2,11 @@
 
  ## content
 
+ ## padding
+
+ ## border
+
+ ## margin
+
  
 
