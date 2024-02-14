@@ -24,3 +24,10 @@
    
    - Source Order
 # CSS-Units
+   em : values are relative to the font-size of the nearest parent element.
+      
+      Example: <div>The font-size of the div element is set to 30px. <span>The span element inside the div element has a font-size of 0.5em, which equals to 0.5x30 =       
+               15px</span>.</div>
+   rem : values are relative to the root font-size, or the font-size of the html.
+
+      Example: 
