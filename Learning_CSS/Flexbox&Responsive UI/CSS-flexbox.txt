@@ -1,6 +1,6 @@
-good website to look at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Guide : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-/* flexbox game: https://flexboxfroggy.com/
+practice flexbox with a game: https://flexboxfroggy.com/
 1)  justify-content: right
 2)  justify-content: center
 3)  justify-content: space-around
@@ -40,4 +40,4 @@ good website to look at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 24) flex-wrap: wrap-reverse;
     flex-direction: column-reverse;
     justify-content: center;
-    align-content: space-between; */
+    align-content: space-between; 
