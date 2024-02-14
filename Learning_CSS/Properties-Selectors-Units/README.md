@@ -34,6 +34,5 @@
    3) px
 
    4) %
-
-   There are a lot more than this but I only bring up the one I most fequently use
-   for more: https://www.w3schools.com/cssref/css_units.php
+   
+   more to learn: https://www.w3schools.com/cssref/css_units.php
