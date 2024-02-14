@@ -3,6 +3,7 @@
 Guide : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 Practice flexbox with game: https://flexboxfroggy.com/
+
 solution:
 
 1)  justify-content: right
