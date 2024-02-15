@@ -1,6 +1,7 @@
 # CSS
 
 ## Browser support
+  
   reference: https://www.w3schools.com/cssref/css3_browsersupport.php
   
   check: https://caniuse.com/
@@ -15,24 +16,29 @@
   
   -ms-      /* Internet Explorer (but not always) */ 
 
+## media queries
+  
+  Guide : https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 ## CSS-animations
-  good libraries to use: https://animate.style/
+
+  animations : good libraries to use : https://animate.style/
 
 ## Minify file
-  https://www.cleancss.com/css-minify/
+  to minify : https://www.cleancss.com/css-minify/
 
 ## color
-  https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+  color : https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
 
 ## google fonts
-  https://fonts.google.com/  
+  fonts : https://fonts.google.com/  
 
 ## free template
-  https://html5up.net/
+  general template : https://html5up.net/
   
-  portfolio: https://bashooka.com/freebie/free-html-portfolio-website-templates/
+  portfolio template : https://bashooka.com/freebie/free-html-portfolio-website-templates/
 
 
 ## useful resources
   codepin: https://codepen.io/team/css-tricks/pens/public
+  
   learning & review : https://web.dev/learn/css/
