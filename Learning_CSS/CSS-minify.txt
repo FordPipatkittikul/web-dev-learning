@@ -1,2 +1,0 @@
-make of css file samller in order to make our website load faster
-https://www.cleancss.com/css-minify/
