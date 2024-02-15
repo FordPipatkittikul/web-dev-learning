@@ -31,3 +31,8 @@
   https://html5up.net/
   
   portfolio: https://bashooka.com/freebie/free-html-portfolio-website-templates/
+
+
+## useful resources
+  codepin: https://codepen.io/team/css-tricks/pens/public
+  learning & review : https://web.dev/learn/css/
