@@ -4,6 +4,8 @@ Guide: https://css-tricks.com/snippets/css/complete-guide-grid/
 
 Practices css-grid: https://cssgridgarden.com/
 
+solution:
+
 1) grid-column-start: 3;
 2) grid-column-start: 5;
 3) grid-column-end: 4; หรือ grid-column-end: span 3;
