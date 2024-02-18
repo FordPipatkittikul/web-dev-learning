@@ -78,6 +78,6 @@ Basically means that you can only execute one thing at a time. But It can get sl
              12
              11
 ## conclusion
-Javascript is a single threaded langauge that can be non-blocking.
-single-threaded mean can only have one call Stack and can only do one at the time.
-In order to be not block a single thread. It can be asynchronous.
+- Javascript is a single threaded langauge that can be non-blocking.
+- single-threaded mean can only have one call Stack and can only do one at the time.
+- In order to be not block a single thread. It can be asynchronous.
