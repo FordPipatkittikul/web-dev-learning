@@ -1,2 +1,2 @@
 # web-dev-learning
-Ref: https://zerotomastery.io/
+From: https://zerotomastery.io/
