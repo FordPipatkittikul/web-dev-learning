@@ -50,7 +50,7 @@
 
 ## Synchronous  V.S. Asynchronous Programming
 
-## Synchronous 
+### Synchronous 
 
 Basically means that you can only execute one thing at a time. But It can get slow because we have tow wait things to get done before we can go to other one.
 
