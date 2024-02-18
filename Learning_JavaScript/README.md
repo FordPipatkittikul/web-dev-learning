@@ -77,6 +77,11 @@ Basically means that you can only execute one thing at a time. But It can get sl
     output : 10
              12
              11
+
+## Javascript run-time Environment
+![alt text](<Screenshot (67).png>)
+    
+
 ## conclusion
 - Javascript is a single threaded langauge that can be non-blocking.
 - single-threaded mean can only have one call Stack and can only do one at the time.
