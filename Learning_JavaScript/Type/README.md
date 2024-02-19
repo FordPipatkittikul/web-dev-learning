@@ -15,5 +15,4 @@ Reference types in JavaScript are passed by reference
     
     Object
     Any data structure that make by object.
-
 ![alt text](<Screenshot (69).png>)
