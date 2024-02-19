@@ -1,7 +1,6 @@
 # JavaScript types
 
 ## Primitive type
-
 Primitive types in JavaScript are passed by value. This means a copy of the value is created and used within the function.
 
     Number
