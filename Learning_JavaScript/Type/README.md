@@ -1,6 +1,6 @@
-# JavaScript type
+# JavaScript types
 
-## Primitive types
+## Primitive type
 
 Primitive types in JavaScript are passed by value. This means a copy of the value is created and used within the function.
 
@@ -12,7 +12,6 @@ Primitive types in JavaScript are passed by value. This means a copy of the valu
     Symbol
 
 ## Reference type
-
 Reference types in JavaScript are passed by reference
     
     Object
