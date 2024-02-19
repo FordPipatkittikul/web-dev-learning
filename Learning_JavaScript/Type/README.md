@@ -9,7 +9,6 @@ Primitive types in JavaScript are passed by value. This means a copy of the valu
     Boolean
     Null
     Symbol
-
 ## Reference type
 Reference types in JavaScript are passed by reference
     
