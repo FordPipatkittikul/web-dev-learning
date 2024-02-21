@@ -25,7 +25,6 @@
 ## ternary operator 
 
     condition ? expr1 : expr2;
-
 ## switch
 
     function moveCommand(direction) {
