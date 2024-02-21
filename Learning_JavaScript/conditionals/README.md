@@ -1,5 +1,4 @@
 # Conditionals
-
 ## if
 
     if (conditional) {
