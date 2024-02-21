@@ -4,7 +4,6 @@
     if (conditional) {
         
     }
-
 ## else
 
     if (conditional) {
