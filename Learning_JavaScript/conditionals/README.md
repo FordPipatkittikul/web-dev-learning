@@ -18,7 +18,6 @@
     }else if (conditional){
         
     }
-
 ## ternary operator 
 
     condition ? expr1 : expr2;
