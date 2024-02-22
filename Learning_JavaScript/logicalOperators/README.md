@@ -1,4 +1,4 @@
-# Operators
+# logical Operators
 
 ## syntax
 
