@@ -50,6 +50,10 @@ const sym3 = Symbol("foo");
 
 Symbol("foo") === Symbol("foo"); // false
 
+// _________________________________________________________________
+
+// Reference type
+
 Object
 
 // object are collections of properties
