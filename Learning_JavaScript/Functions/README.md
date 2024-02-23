@@ -12,10 +12,9 @@ function that does not have any name associated with it
     }  // same thing
 
     const minus = (a,b) => a+b; // same thing
-
 ## argument V.S. parameter
 
-    var multiply = function multiplyy(a,b) {    // argument: a, b
+    var multiply = function multiplyy(a,b) {     argument: a, b
         return a * b
     }
     
