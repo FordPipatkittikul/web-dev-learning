@@ -1,5 +1,4 @@
 # Functions
-
 ## Anonymous Function
 function that does not have any name associated with it
 
