@@ -6,7 +6,6 @@ function that does not have any name associated with it
     var byeBye = function() {
     console.log("bye bye")
     }
-
 ## Arrow functions
 
     function minus(a,b) {
