@@ -23,8 +23,6 @@ function that does not have any name associated with it
     }
     
     console.log(multiply(5,4))           parameters: 5,4
-
-
 ## Currying
 The process of converting a function that takes multiply argument into a function that takes one at a time.
 
