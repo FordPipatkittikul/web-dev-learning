@@ -32,7 +32,6 @@ The process of converting a function that takes multiply argument into a functio
     
     const curriedMultiple = (a) => (b) => a * b;
     const multiplyBy5 = curriedMultiple(5);
-
 ## Compose
 The act of putting two function together to form a third function with the output of one function is the input of the other.
     
