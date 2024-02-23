@@ -16,6 +16,16 @@ function that does not have any name associated with it
     const minus = (a,b) => a+b; // same thing
 
 
+## argument V.S. parameter
+
+    var multiply = function multiplyy(a,b) {    // argument: a, b
+        return a * b
+    }
+    
+    console.log(multiply(5,4))           parameters: 5,4
+
+
+
 ## Currying
 The process of converting a function that takes multiply argument into a function that takes one at a time.
 

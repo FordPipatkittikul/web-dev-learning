@@ -8,12 +8,18 @@ function ageCheck(age){
     }
 }
 
+// _________________________________________________________________________________
+
 // Anonymous function
 var sayBye = function() {
     console.log("Bye")
 }
 
 sayBye()
+
+// ________________________________________________________________________________
+
+// argument vs parameters
 
 var multiply = function multiplyy(a,b) {
     return a * b
@@ -27,6 +33,7 @@ var minus = function minuss(a,b) {     // argument: a, b
 
 console.log(multiply(5,4))           // parameters: 5,4
 
+// _________________________________________________________________
 
 // arrow functions
 
@@ -35,4 +42,6 @@ function add(a,b) {
 }  // same thing
 
 const add2 = (a,b) => a+b; // same thing
+
+// _________________________________________________________________
 
