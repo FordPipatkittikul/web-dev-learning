@@ -24,3 +24,31 @@
         const array2 = ['d', 'e', 'f'];
         const array3 = array1.concat(array2);
         console.log(array3); // ["a", "b", "c", "d", "e", "f"]
+
+## map
+
+    const array = [1,2,3,4];
+
+    const mapArray = array.map((num,i) => {
+        return num * 2;
+    });
+    console.log("map", mapArray);
+    // [2,4,6,8]
+
+
+## filter
+    const array1 = [1,2,3,4,6];
+    
+    const filterArray = array.filter(num => num > 5);
+    console.log("filter", filterArray);
+    // [6]
+
+## reduce
+    const array1 = [1,2,3,4]
+
+    const reduceArray = array.reduce((accumulator,num) => {
+        return accumulator + num
+    }, 10);
+    ### default value for accumulator = 0
+    console.log("reduce",reduceArray) 
+    // 20
