@@ -36,7 +36,6 @@
     const filterArray = array.filter(num => num > 5);
     console.log("filter", filterArray);
     // [6]
-
 ## reduce
     const array1 = [1,2,3,4]
 
