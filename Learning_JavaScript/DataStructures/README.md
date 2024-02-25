@@ -29,7 +29,6 @@
     });
     console.log("map", mapArray);
     // [2,4,6,8]
-
 ## filter
     const array1 = [1,2,3,4,6];
     
