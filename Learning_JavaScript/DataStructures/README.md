@@ -17,3 +17,10 @@
         list.push("lion");      // ["cat","lion"]
         console.log(list)       // ["cat","lion"]
 
+## concat
+- Create a new array. have to assign to a variable
+
+        const array1 = ['a', 'b', 'c'];
+        const array2 = ['d', 'e', 'f'];
+        const array3 = array1.concat(array2);
+        console.log(array3); // ["a", "b", "c", "d", "e", "f"]
