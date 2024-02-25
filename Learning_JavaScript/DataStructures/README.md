@@ -1,5 +1,4 @@
 # Data structures
-
 ## Array
 - Accessing by index. ordered element
 - It is reference types(passed by reference)
