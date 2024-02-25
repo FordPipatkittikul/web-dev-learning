@@ -1,0 +1,69 @@
+// push, pop, shift modified the original array
+
+var list = ["tiger", "cat", "bear"];
+// console.log(list[0]);
+list.shift(); // ["cat", "bear"]
+list.pop(); // ["cat"]
+list.push("lion"); // ["cat","lion"]
+
+// _________________________________________________
+
+// concat create a new array. have to assign to a variable
+list.concat(["bird","whale"])  // ["cat","lion","bird","whale"]
+console.log(list)  // ["cat","lion"]
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+console.log(array3); // ["a", "b", "c", "d", "e", "f"]
+
+// _________________________________________________
+
+var functionList = [function apple() {
+    console.log("apple")
+}]
+
+var mixedList = ["apple", 3, true, function apple() {
+    console.log("apple")
+}]
+
+var twoDimensionArray = [["tiger", "cat", "bear"]];
+
+// _________________________________________________
+
+const array = [1,2,3,4];
+
+const double = []
+const newArray = array.forEach((num) => {
+    double.push(num * 2);
+})
+
+
+// map 
+
+const mapArray = array.map((num,i) => {
+    return num * 2;
+});
+
+// if only 1 parameter and  1 return line we can write it like
+// const mapArray = array.map(num => num * 2);
+
+console.log("map", mapArray)
+
+// ________________________________________________________________
+
+// filter
+
+const filterArray = array.filter(num => num > 5);
+
+console.log("filter", filterArray);
+
+// __________________________________________________________________
+
+// reduce
+const reduceArray = array.reduce((accumulator,num) => {
+    return accumulator + num
+}, 10);
+// default value for accumulator = 0
+console.log("reduce",reduceArray) // 20
+
+// ____________________________________________________________________

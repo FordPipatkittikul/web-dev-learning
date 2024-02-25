@@ -56,8 +56,6 @@ Symbol("foo") === Symbol("foo"); // false
 
 Object
 
-// object are collections of properties
-
 var user = {
     name: "John",
     age: 10,
