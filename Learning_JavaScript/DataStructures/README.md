@@ -23,7 +23,6 @@
         const array3 = array1.concat(array2);
         console.log(array3); // ["a", "b", "c", "d", "e", "f"]
 ## map
-
     const array = [1,2,3,4];
 
     const mapArray = array.map((num,i) => {
@@ -31,7 +30,6 @@
     });
     console.log("map", mapArray);
     // [2,4,6,8]
-
 
 ## filter
     const array1 = [1,2,3,4,6];
