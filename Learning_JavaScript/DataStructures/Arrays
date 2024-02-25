@@ -1,7 +1,7 @@
 // push, pop, shift modified the original array
 
 var list = ["tiger", "cat", "bear"];
-// console.log(list[0]);
+
 list.shift(); // ["cat", "bear"]
 list.pop(); // ["cat"]
 list.push("lion"); // ["cat","lion"]
