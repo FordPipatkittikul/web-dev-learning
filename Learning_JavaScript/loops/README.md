@@ -32,9 +32,11 @@
             apples : 5,
             oranges: 10
         };
+    
         for (item in detailedBasket){
             console.log(item)
         }
+    
         for (item in basket){
             console.log(item)
         }  // it works because array is basiclly an object
@@ -51,7 +53,6 @@
         console.log(counterTwo);    
         counterTwo--;
     } while (counterTwo > 0)        // and check this condition
-
 ## forEach
     var todos = [
         "clean room",
@@ -60,6 +61,7 @@
         "study",
         "eat healthy"
     ];
+    
     todos.forEach(function(todo, i){   // argument is indidvidual element in todos
         console.log(todo, i)
     })
