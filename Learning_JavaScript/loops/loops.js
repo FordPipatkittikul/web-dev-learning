@@ -53,3 +53,30 @@ todos.forEach(logTodos)
 todosImportant.forEach(logTodos)
 
 // ------------------------------------------------------------ //
+
+// Iterable is something that can loop over
+const basket = ["apples", 'oranges','grapes'];
+const detailedBasket = {
+    apples : 5,
+    oranges: 10
+};
+
+
+// for of
+// Iterting : arrays, strings
+for (item of basket) {
+    console.log(item);
+}
+
+// ------------------------------------------------------------ //
+
+// for in
+
+// enumerating - objects
+for (item in detailedBasket){
+    console.log(item)
+}
+// it works because array is basiclly an object
+for (item in basket){
+    console.log(item)
+}
