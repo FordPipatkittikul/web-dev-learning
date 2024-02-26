@@ -1,8 +1,6 @@
 # How JavaScript works
-
 1) allocate memory(the process of reserving virtual or physical computer space for a specific purpose).
 2) parse and execute(read and run command).
-
 ## Javascript Engine consist two parts.
 1) Memory Heap is where the memory allocation happen.
 2) Call Stack is where your code read and execute our scripts.
