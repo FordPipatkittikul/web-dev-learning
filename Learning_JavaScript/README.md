@@ -59,7 +59,6 @@ Basically means that you can only execute one thing at a time. But It can get sl
     output : 10
              11
              12
-
 ### Asynchronous
 
     E.X.
@@ -73,7 +72,6 @@ Basically means that you can only execute one thing at a time. But It can get sl
     output : 10
              12
              11
-
 ## Javascript run-time Environment
 ![alt text](<Screenshot (67).png>)
 ## conclusion
