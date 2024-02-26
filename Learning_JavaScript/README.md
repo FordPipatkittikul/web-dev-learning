@@ -10,9 +10,7 @@
 ![alt text](<Screenshot (65).png>)
 
 ### 1) Memory Heap
-
 - Memory leak will happen when we have so much of unused memory and fill up memory heap.
-
 ### 2) Call Stack
 
     E.X.
