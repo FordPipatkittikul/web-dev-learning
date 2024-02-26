@@ -46,7 +46,6 @@
         counterOne--;
         
     }
-
 ## do
     var counterTwo = 10;
     do {                            // do this first
