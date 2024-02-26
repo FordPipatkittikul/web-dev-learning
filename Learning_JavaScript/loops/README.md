@@ -38,7 +38,6 @@
         for (item in basket){
             console.log(item)
         }  // it works because array is basiclly an object
-
 ## while loops
     var counterOne = 10;
     while(counterOne > 0) {
