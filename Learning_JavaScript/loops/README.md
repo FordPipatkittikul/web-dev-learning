@@ -1,5 +1,4 @@
 # loops
-
 ## for loops
     var todos = [
         "clean room",
