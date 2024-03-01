@@ -20,6 +20,21 @@ Some feature Update!
       
       // let wizardLevel = obj.wizardLevel; //  same thing   ans : false
       // let {wizardLevel} = obj; // same thing ans : false
+## obj properties
+      let name = "Ford";
+      const obj1 = {
+          [name]: "hi hi"
+      }
+      
+      console.log(obj1) // { Ford: 'hi hi' }
+
+
+      let a = "Ford";
+      let b = true;
+      let c = {}
+      const obj2 = { a,b,c }
+
+      console.log(obj2) // { a: 'Ford', b: true, c: {} }
 ## template Strings
 
       const firstName = "John";
