@@ -1,5 +1,5 @@
 # ES6
-
+Some Update
 ## let, const
 - const variable can't be reassign. Using it for store something that doesn't have to be change.
 
@@ -29,4 +29,10 @@
 
         function greet( firstName = '', lastName = ''){
           return `Hi my name is ${firstName} ${lastName}, I'm a student`;
-         }`
+         }
+## arrow functions
+      function add(a,b) {
+          return a + b;
+      }  // same thing
+      
+      const add2 = (a,b) => a+b; // same thing
