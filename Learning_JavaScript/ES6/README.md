@@ -20,3 +20,13 @@
       
       // let wizardLevel = obj.wizardLevel; //  same thing   ans : false
       // let {wizardLevel} = obj; // same thing ans : false
+## template Strings
+
+      const firstName = "John";
+      const lastName = "Doe";
+      const greetingBest = `Hi my name is ${firstName} ${lastName}, I'm a student
+## default arguments
+
+        function greet( firstName = '', lastName = ''){
+          return `Hi my name is ${firstName} ${lastName}, I'm a student`;
+         }`
