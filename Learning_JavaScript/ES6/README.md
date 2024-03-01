@@ -6,3 +6,17 @@
 - Variables declared by let are only available inside the block where they're defined.
 
 ## Destructuring
+- JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+      const obj = {
+      player: "bobby",
+      expereince: 100,
+      wizardLevel: false
+      }
+      
+      // const player = obj.player; // same thing
+      // const experience = obj.expereince // same thing
+      // const { player, expereince} = obj //  same thing
+      
+      // let wizardLevel = obj.wizardLevel; //  same thing   ans : false
+      // let {wizardLevel} = obj; // same thing ans : false
