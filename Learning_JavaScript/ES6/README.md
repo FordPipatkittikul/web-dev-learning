@@ -42,9 +42,9 @@ Some feature Update!
       const greetingBest = `Hi my name is ${firstName} ${lastName}, I'm a student
 ## default arguments
 
-        function greet( firstName = '', lastName = ''){
-          return `Hi my name is ${firstName} ${lastName}, I'm a student`;
-         }
+      function greet( firstName = '', lastName = ''){
+         return `Hi my name is ${firstName} ${lastName}, I'm a student`;
+      }
 ## arrow functions
       function add(a,b) {
           return a + b;
