@@ -14,9 +14,9 @@ Some feature Update!
       wizardLevel: false
       }
       
-      // const player = obj.player; // same thing
-      // const experience = obj.expereince // same thing
-      // const { player, expereince} = obj //  same thing
+      // const player = obj.player; // same thing             player: bobby
+      // const experience = obj.expereince // same thing      experience: 100
+      // const { player, expereince} = obj //  same thing     player: bobby, experience: 100
       
       // let wizardLevel = obj.wizardLevel; //  same thing   ans : false
       // let {wizardLevel} = obj; // same thing ans : false
