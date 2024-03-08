@@ -1,5 +1,8 @@
 # React
 
+## Create React App
+Guide : https://create-react-app.dev/docs/getting-started
+
 ## Understanding JSX
 stands for JavaScript XML allows us to write HTML in React and makes it easier to write and add HTML in React.
 
