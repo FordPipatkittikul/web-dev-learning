@@ -1,0 +1,16 @@
+.cool-text {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.items {
+    display: grid;
+    row-gap: 15px;
+}
