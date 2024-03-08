@@ -1,5 +1,4 @@
 # ES6
-Some feature Update!
 ## let, const
 - const variable can't be reassign. Using it for store something that doesn't have to be change.
 
