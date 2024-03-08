@@ -1,6 +1,6 @@
 # React
 
-## understanding JSX
+## Understanding JSX
 stands for JavaScript XML allows us to write HTML in React and makes it easier to write and add HTML in React.
 
 ### Embdding Expressions in JSX
