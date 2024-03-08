@@ -1,5 +1,4 @@
 # DOM
-
 ## DOM Selectors
     .getElementsByTagName("")                 E.X. document.getElementsByTagName
     .getElementByclassName("")                E.X. document.getElementByclassName
