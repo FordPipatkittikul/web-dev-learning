@@ -39,3 +39,6 @@ For props and state recommend go read this document below:
 
 Guide: https://www.w3schools.com/react/react_components.asp,
 https://react.dev/reference/react/Component
+
+
+## React Hooks
