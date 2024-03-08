@@ -24,9 +24,7 @@
     innerHTML //DANGEROUS
     parentElement
     children
-
-
-## It is imprtant to CACHE selectors in varaibles
+### It is imprtant to CACHE selectors in varaibles
 
 ## DOM EVENTS
 
