@@ -10,7 +10,6 @@
 
     .getAttribute("")
     .setAttribute("")
-
 ## Changing Styles
     style.{property} // it's ok to use this but we want to sephtml css javascript to be seperate
 
@@ -25,7 +24,6 @@
     parentElement
     children
 ### It is imprtant to CACHE selectors in varaibles
-
 ## DOM EVENTS
 EVENT: https://developer.mozilla.org/en-US/docs/Web/Events
 
