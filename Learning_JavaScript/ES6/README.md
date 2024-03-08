@@ -20,6 +20,7 @@ Some feature Update!
       
       // let wizardLevel = obj.wizardLevel; //  same thing   ans : false
       // let {wizardLevel} = obj; // same thing ans : false
+Guide : https://www.w3schools.com/react/react_es6_destructuring.asp
 ## obj properties
       let name = "Ford";
       const obj1 = {
