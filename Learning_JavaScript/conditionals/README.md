@@ -20,7 +20,7 @@
     }
 ## ternary operator 
 
-    condition ? expr1 : expr2;
+    condition ? expr1 : expr2;   // if it is true return expr1 else false.
 ## switch
 
     function moveCommand(direction) {
