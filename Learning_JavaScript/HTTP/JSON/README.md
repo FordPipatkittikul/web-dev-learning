@@ -1,7 +1,11 @@
 # JSON
+JSON IS TEXT!!!
+
 It is a syntax for storing and exchanging data.
 
 It is standard way for transmitting data in web application. For example: sending some data from server to the client.
+
+![Screenshot (72)](https://github.com/FordPipatkittikul/web-dev-learning/assets/121902625/b1e45649-ced5-4416-ad16-1289ecf7b20e)
 
 # JSON Parse
 When receiving data from a web server, the data is always a string.
