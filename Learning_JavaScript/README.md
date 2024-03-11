@@ -53,7 +53,7 @@ dynamicclly typed languages means you do not have to specify types every time.
 
 ## Synchronous  V.S. Asynchronous Programming
 ### Synchronous 
-Basically means that you can only execute one thing at a time. But It can get slow because we have tow wait things to get done before we can go to other one.
+Basically means that you can only execute one thing at a time. But It can get slow because we have to wait things to get done before we can go to other one. or what we call single-thread
 
     E.X.
 
@@ -65,7 +65,7 @@ Basically means that you can only execute one thing at a time. But It can get sl
              11
              12
 ### Asynchronous
-
+It is multi-thread, which means operations or programs can run in parallel.
     E.X.
 
     console.log("10")
