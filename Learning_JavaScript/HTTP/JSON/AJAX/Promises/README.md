@@ -4,6 +4,7 @@ It is an object that may produce a single value some time in the future.
 Either a resolved value which is success or a reson that is not resolved which is rejected.
 
 ## Promise Object Properties
+3 possible state
 
 - Pending
 - Fulfilled
