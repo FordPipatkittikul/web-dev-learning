@@ -66,6 +66,7 @@ Basically means that you can only execute one thing at a time. But It can get sl
              12
 ### Asynchronous
 It is multi-thread, which means operations or programs can run in parallel.
+    
     E.X.
 
     console.log("10")
