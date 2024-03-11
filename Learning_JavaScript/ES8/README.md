@@ -21,3 +21,54 @@ Object.values() // return two dimensional array of key & values
                                                     //     [ 'age', 50 ],
                                                     //     [ 'eyeColor', 'blue' ]
                                                     // ]
+
+## Async await
+
+
+    Example 1
+
+    // normally Promise we do
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(response => response.json())
+        .then(users => console.log(users))
+
+
+    // with Async await
+    async function fetchUsers(){
+        const response = await fetch("https://jsonplaceholder.typicode.com/users")
+        const data = await response.json()          // .then(response => response.json())
+        console.log(data)                           // .then(users => console.log(users))
+    }
+
+    // Example 2
+
+
+    // normally Promise we do
+    const urls = [
+        "https://jsonplaceholder.typicode.com/users",
+        "https://jsonplaceholder.typicode.com/posts",
+        "https://jsonplaceholder.typicode.com/albums"
+    ];
+
+    Promise.all(urls.map(url => {
+        return fetch(url).then(response => response.json())
+    })).then(results => {
+        console.log(results[0])
+        console.log(results[1])
+        console.log(results[2])
+    }).catch(() => console.log("error")) // If something falied print
+
+
+    // with Async await
+    const getData = async function() {
+        try{
+            const [users, post,albums] = await Promise.all(urls.map(url => {
+                return fetch(url).then(response => response.json())
+            }))
+            console.log(users)
+            console.log(post)
+            console.log(albums)
+        } catch (error){
+            console.log("error", error)
+        }
+    }
