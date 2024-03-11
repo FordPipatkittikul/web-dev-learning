@@ -15,6 +15,8 @@ dynamicclly typed languages means you do not have to specify types every time.
 
 ![alt text](<Screenshot (65).png>)
 
+picture credit: from https://zerotomastery.io/
+
 ### 1) Memory Heap
 - Memory leak will happen when we have so much of unused memory and fill up memory heap.
 ### 2) Call Stack
@@ -50,7 +52,7 @@ dynamicclly typed languages means you do not have to specify types every time.
         foo()
 ![alt text](<Screenshot (66).png>)
 
-
+picture credit: from https://zerotomastery.io/
 ## Synchronous  V.S. Asynchronous Programming
 ### Synchronous 
 Basically means that you can only execute one thing at a time. But It can get slow because we have to wait things to get done before we can go to other one. or what we call single-thread
@@ -80,6 +82,8 @@ It is multi-thread, which means operations or programs can run in parallel.
              11
 ## Javascript run-time Environment
 ![alt text](<Screenshot (67).png>)
+
+picture credit: from https://zerotomastery.io/
 ## conclusion
 - Javascript is a single threaded langauge that can be non-blocking.
 - single-threaded mean can only have one call Stack and can only do one at the time.
