@@ -1,3 +1,9 @@
+// Promises
+
+// It is an object that may produce a single value some time in the future.
+// Either a resolved value which is success or a reson that is not resolved which is rejected.
+
+
 const promise = new Promise((resolve, reject) =>{
     if(true){
         resolve("It is worked");
@@ -24,6 +30,7 @@ Promise.all([promise, promise2, promise3, promise4])
     })
 // It is waiting until all the promises are resolved which is 5000 milliseconds(5 sec) 
 // and output: ['It is worked', 'Fake', 'Fake2', 'Real one']
+// promise.all has to have all promise resolve
 
 
 // channing promises
