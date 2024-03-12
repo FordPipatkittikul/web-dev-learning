@@ -42,3 +42,5 @@
   codepin: https://codepen.io/team/css-tricks/pens/public
   
   learning & review : https://web.dev/learn/css/
+
+  css-pattern gallery (for color): https://projects.verou.me/css3patterns/
