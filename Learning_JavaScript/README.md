@@ -1,11 +1,11 @@
 # JavaScript
-It is dynamically typed languages and weakly type languagues
-dynamicclly typed languages means you do not have to specify types every time.
+It is dynamically typed languages and weakly typed languagues
 
     var a = 1
     var b = "abc"
     console.log(a+b)   ans: "1abc"   // weakly typed
 
+Dynamic typed vs static typed: https://www.coderscampus.com/static-typing-vs-dynamic-typing/
 # How JavaScript works
 1) allocate memory(the process of reserving virtual or physical computer space for a specific purpose).
 2) parse and execute(read and run command).
