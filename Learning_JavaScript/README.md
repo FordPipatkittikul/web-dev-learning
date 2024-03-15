@@ -89,6 +89,6 @@ picture credit: from https://zerotomastery.io/
 - single-threaded mean can only have one call Stack and can only do one at the time.
 - In order to be not block a single thread. It can be asynchronous.
 
-# review all ECMAScript-new-features from ES6 - ES2023
+# Review ECMAScript-new-features from ES6 - ES2023
 
 Guide : https://github.com/daumann/ECMAScript-new-features-list
