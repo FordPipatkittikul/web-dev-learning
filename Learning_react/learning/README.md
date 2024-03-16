@@ -7,6 +7,7 @@ Guide : https://create-react-app.dev/docs/getting-started
 stands for JavaScript XML allows us to write HTML in React and makes it easier to write and add HTML in React.
 
 ### Embdding Expressions in JSX
+Wrapping everything with {} then you can do JavaScript expression.
 Example:
 
     const myElement = <h1>React is {5 + 5} times better with JSX</h1>;
