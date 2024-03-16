@@ -23,7 +23,7 @@ Object.values() // return two dimensional array of key & values
                                                     // ]
 
 ## Async await
-
+await operator: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await#top_level_await
 
     Example 1
 
