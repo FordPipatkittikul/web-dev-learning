@@ -41,7 +41,7 @@ SELECT AVG(<column>) FROM <tablename>;
 # postgresql
 
 ## basic command
-psql -U <databasename> : go inside database
+psql -U <user> : set up user
 
 CREATE DATABASE <databasename>; : create
 
