@@ -69,4 +69,6 @@ CREATE DATABASE *databasename*; : create database.
 
 
 ## data types
-**Guide**: https://www.tutorialspoint.com/postgresql/postgresql_data_types.htm
+
+**Guide**: https://www.tutorialspoint.com/postgresql/postgresql_data_types.htm,
+https://www.techonthenet.com/postgresql/datatypes.php
