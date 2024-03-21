@@ -21,4 +21,5 @@ stores information as document
 **Schema don't have to be defiend**.
 
 ![alt text](image-3.png)
+
 credit: https://www.upwork.com/resources/nosql-vs-sql#sql-database
