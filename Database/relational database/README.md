@@ -10,13 +10,12 @@ SELECT * FROM *tablename*;  : select all columns from the  table.
 
 SELECT *column1,column2* FROM *tablename*;  : select all column1,column2 from the table.
 
-
 ### INSERT INTO
 INSERT INTO *tablename* (*column1name*, *column2name*, *column3name*) VALUES (*value_1*, *value_2*, *value_3*),(*value_4*, *value_5*, *value_6*); : inserting data into table.
 
 **Note** have to use '' for string value data type
 
-### ALTER TABLE
+### ALTER TABLE    
 ALTER TABLE *tablename* ADD *newcolumnname* *datatype*; : create new column in table.
 
 ### UPDATE
@@ -32,6 +31,12 @@ DROP TABLE *tablename*; : delete table.
 ### OR
 
 ### AND
+
+### JOIN
+
+SELECT * FROM *tablename1* JOIN *tablename2* ON *tablename1.column1* = *tablename2.column2*
+
+
 
 ### some conditions
 SELECT * FROM *tablename* WHERE *column* LIKE 'A%';  : select all from table where the value of that column start with A letter.
