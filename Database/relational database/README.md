@@ -20,6 +20,11 @@ ALTER TABLE *tablename* ADD *newcolumnname* *datatype*; : create new column in t
 
 ### UPDATE
 UPDATE *tablename* SET *columnname* = *value* WHERE *columnname* = *value*;
+GUIDE: https://www.w3schools.com/sql/sql_update.aspv
+
+### DELETE
+DELETE FROM *tablename* WHERE *columnname* = *value*;
+DROP TABLE *tablename* : delete table
 
 ### OR
 
