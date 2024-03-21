@@ -3,37 +3,37 @@
 # SQL query
 
 ### CREATE TABLE
-CREATE TABLE <tablename> (<column1name> <datatype>, <column2name> <datatype>, <column3name> <datatype>)  : create Table
+CREATE TABLE *tablename* (*column1name* *datatype*, *column2name* *datatype*, *column3name* *datatype*)  : create a table
 
 ### SELECT
-SELECT * FROM <tablename>;  : select all columns from the  table
-SELECT <column1,column2> FROM <tablename>;  : select all column1,column2 from the table
+SELECT * FROM *tablename*;  : select all columns from the  table
+SELECT *column1,column2* FROM *tablename*;  : select all column1,column2 from the table
 
 
 ### INSERT INTO
-INSERT INTO <tablename> (<column1name>, <column2name>, <column3name>) VALUES (<value_1>, <value_2>, <value_3>),(<value_4>, <value_5>, <value_6>); : inserting data into table
+INSERT INTO *tablename* (*column1name*, *column2name*, *column3name*) VALUES (*value_1*, *value_2*, *value_3*),(*value_4*, *value_5*, *value_6*); : inserting data into table
 
 **Note** have to use '' for string value data type
 
 ### ALTER TABLE
-ALTER TABLE <tablename> ADD <newcolumnname> <datatype>; : create new column in table
+ALTER TABLE *tablename* ADD *newcolumnname* *datatype*; : create new column in table
 
 ### UPDATE
-UPDATE <tablename> SET <columnname> = <value> WHERE <columnname> = <value>;
+UPDATE *tablename* SET *columnname* = *value* WHERE *columnname* = *value*;
 
 ### OR
 
 ### AND
 
 ### some conditions
-SELECT * FROM <tablename> WHERE <column> LIKE 'A%';  : select all from table where the value of that column start with A letter
+SELECT * FROM *tablename* WHERE *column* LIKE 'A%';  : select all from table where the value of that column start with A letter
 
-SELECT * FROM <tablename> ORDER BY <column> DESC; :  select all from table where the value of that column start from highest to lowest
+SELECT * FROM *tablename* ORDER BY *column* DESC; :  select all from table where the value of that column start from highest to lowest
 
-SELECT * FROM <tablename> ORDER BY <column> ASC; :  select all from table where the value of that column start from lowest to highest
+SELECT * FROM *tablename* ORDER BY *column* ASC; :  select all from table where the value of that column start from lowest to highest
 
 ### some Functions
-SELECT AVG(<column>) FROM <tablename>;
+SELECT AVG(*column*) FROM *tablename*;
 - SUM()
 - COUNT()
 
@@ -41,15 +41,14 @@ SELECT AVG(<column>) FROM <tablename>;
 # postgresql
 
 ## basic command
-psql -U <databasename> : go inside database
+psql -U *databasename* : go inside database
 
-CREATE DATABASE <databasename>; : create
+CREATE DATABASE *databasename*; : create
 
 -d - specifies the name of the database to connect to
-
 -U - specifies the name of the user to connect as
 
-\c <databasename>;  : move to specific database
+\c *databasename*;  : move to specific database
 
 \l : list all databases
 
