@@ -55,7 +55,7 @@ SELECT AVG(*column*) FROM *tablename*;
 
 ## basic command
 
-psql -U <user> : set up user.
+psql -U *user*
 
 CREATE DATABASE *databasename*; : create database.
 
