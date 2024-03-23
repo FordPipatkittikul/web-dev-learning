@@ -14,4 +14,4 @@ HTTP method:
 - DELETE: The DELETE method is used to remove data from a database or server
 ![431316053_315332021169800_3488718732355630050_n](https://github.com/FordPipatkittikul/web-dev-learning/assets/121902625/fe2a2da2-98f3-4a1c-9de4-fd4534539567)
 
-Guide for HTTP messages: https://www.w3schools.com/tags/ref_httpmessages.asp
+Guide for HTTP response messages: https://www.w3schools.com/tags/ref_httpmessages.asp
