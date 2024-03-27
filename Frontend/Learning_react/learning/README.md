@@ -1,5 +1,11 @@
 # React
 
+## Overview
+Traditionally, web development involved manipulating the DOM directly with JavaScript. This approach can be cumbersome, error-prone, and difficult to scale. React solves these problems by providing a more efficient and organized way to build UIs.
+1) Component-based architecture: React breaks down the UI into reusable components, making code more modular and maintainable.
+2) Virtual DOM: React uses a virtual DOM to efficiently update the UI, leading to smoother performance and better user experience.
+credit: https://www.linkedin.com/pulse/why-react-so-popular-what-problem-does-solve-how-work-samir-khan-qlvnf/
+
 ## Create React App
 Guide : https://create-react-app.dev/docs/getting-started
 
