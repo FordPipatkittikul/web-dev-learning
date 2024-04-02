@@ -1,4 +1,9 @@
 # DOM
+## vocabulary
+**The Mounting Phase** begins when a component is first created and inserted into the DOM. The Updating Phase occurs when a component's state or props change. 
+
+**the Unmounting Phase** occurs when a component is removed from the DOM.
+    
 ## DOM Selectors
     .getElementsByTagName("")                 E.X. document.getElementsByTagName
     .getElementByclassName("")                E.X. document.getElementByclassName
