@@ -1,4 +1,7 @@
 # DOM
+## what is it
+The Browser DOM is responsible for rendering the web page, handling user events, and updating the displayed content. Whenever there is a change in the state or structure of the web page, the browser has to re-render the entire DOM tree, which can be a computationally expensive process, especially for complex and large-scale applications.
+
 ## vocabulary
 **The Mounting Phase** begins when a component is first created and inserted into the DOM. The Updating Phase occurs when a component's state or props change. 
 
