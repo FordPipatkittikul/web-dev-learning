@@ -9,6 +9,7 @@ const app = express();
 // this middleware will be invoked for every incoming request that reaches your application.
 app.use(express.urlencoded({extended: false}));
 app.use(express.json()); // parse (interpret and convert) the JSON data in the request body into a JavaScript object.
+app.use(express.text())
 // app.use(express.static(__dirname + "/public")) // getting file from different folder
 
 app.get('/', (req,res) => {
@@ -36,7 +37,7 @@ app.post("/profile", (req,res) => {
 
 
 
-
+console.log(process.env)
 
 
 app.listen(5000)
