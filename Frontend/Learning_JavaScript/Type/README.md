@@ -8,10 +8,11 @@ Primitive types in JavaScript are passed by value. This means a copy of the valu
     Boolean
     Null
     Symbol
-## Reference type
+## Non Primitive type or Reference type
 Reference types in JavaScript are passed by reference
     
     Object
     Any data structure that make by object.
+    Function that is object
 
 ![alt text](<Screenshot (69).png>)
