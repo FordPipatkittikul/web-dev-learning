@@ -91,7 +91,7 @@ It is multi-thread, which means operations or programs can run in parallel.
 
 2) callbackqueue
 
-3) Event loop: checking Call stack is empty
+3) Event loop: Keep checking Call stack is empty
 
 4) Web Api
 - DOM
