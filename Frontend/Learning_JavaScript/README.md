@@ -80,6 +80,11 @@ It is multi-thread, which means operations or programs can run in parallel.
     output : 10
              12
              11
+
+## Single threaded V.S. Multi-thread
+- single-threaded mean can only have one call Stack and can only do one at the time.
+- Multi-thread mean multiple call stack and can do multiple at the time.
+
 ## Javascript run-time Environment
 ![alt text](<Screenshot (67).png>)
 
