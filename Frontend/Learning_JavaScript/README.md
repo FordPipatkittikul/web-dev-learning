@@ -87,6 +87,43 @@ It is multi-thread, which means operations or programs can run in parallel.
 
 ## Javascript run-time Environment
 ![alt text](<Screenshot (67).png>)
+1) Call Stack
+
+2) callbackqueue
+
+3) Event loop: checking Call stack is empty
+
+4) Web Api
+- DOM
+- fetch
+- setTimeout()
+
+        test example
+        function printHello() {
+            console.log(3);
+        }
+
+        function baz() {
+            setTimeout(printHello, 3000);
+            console.log(4)
+        }
+
+        function bar() {
+            console.log(2)
+            baz();
+        }
+
+        function foo() {
+            console.log(1)
+            bar();
+        }
+
+        foo();
+
+        Visual on how its running: http://latentflip.com/loupe/?code=ZnVuY3Rpb24gcHJpbnRIZWxsbygpIHsNCiAgICBjb25zb2xlLmxvZygnSGVsbG
+            8gZnJvbSBiYXonKTsNCn0NCg0KZnVuY3Rpb24gYmF6KCkgew0KI
+            CAgIHNldFRpbWVvdXQocHJpbnRIZWxsbywgMzAwMCk7DQp9DQoNCmZ1bmN0aW9uIGJhcigpIHsNCiAgICBiYXooKTsNCn0NCg0K
+            ZnVuY3Rpb24gZm9vKCkgew0KICAgIGJhcigpOw0KfQ0KDQpmb28oKTs%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
 
 picture credit: from https://zerotomastery.io/
 ## conclusion
