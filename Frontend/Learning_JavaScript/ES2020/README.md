@@ -2,14 +2,5 @@
 
 promise.allSettled() doesn't care about resolve or reject. We can not do that in promise.all() bc for promise.all(), promises need ti be resolve.
 
-    E.X.
-    const promiseOne = new Promise((resolve, reject) =>
-        setTimeout(resolve, 3000)
-    )
-
-    const promiseTwo = new Promise((resolve, reject) =>
-        setTimeout(reject, 3000)
-    )
-
-    Promise.allSettled([promiseOne, promiseTwo]).then(data => console.log(data))
-        .catch(error => console.log("It is not working", error))
+E.X.
+![Screenshot (93)](https://github.com/FordPipatkittikul/web-dev-learning/assets/121902625/8f9c3b2f-7bd6-47ca-97c9-bfe2367ef70f)
