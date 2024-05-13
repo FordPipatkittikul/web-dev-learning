@@ -4,7 +4,7 @@ promise.allSettled() doesn't care about resolve or reject. We can not do that in
 
     E.X.
     const promiseOne = new Promise((resolve, reject) =>
-    setTimeout(resolve, 3000)
+        setTimeout(resolve, 3000)
     )
 
     const promiseTwo = new Promise((resolve, reject) =>
