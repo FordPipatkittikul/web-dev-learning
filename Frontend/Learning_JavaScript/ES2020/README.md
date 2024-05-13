@@ -1,6 +1,6 @@
 # ES2020
 
-promise.allSettled() doesn't care about resolve or reject. We can not do that in promise.all()
+promise.allSettled() doesn't care about resolve or reject. We can not do that in promise.all() bc for promise.all(), promises need ti be resolve.
 
     E.X.
     const promiseOne = new Promise((resolve, reject) =>
