@@ -1,5 +1,5 @@
 # JSON
-JSON IS TEXT!!!
+**JSON IS TEXT!!!**
 
 It is a syntax for storing and exchanging data.
 
