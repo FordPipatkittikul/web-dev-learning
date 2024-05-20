@@ -10,9 +10,13 @@ It is standard way for transmitting data in web application. For example: sendin
 # JSON Parse
 It is useful when you receive JSON data as a string (e.g., from a web API) and need to convert it into an object to work with it in your code.
 
+**req**
+
 Guide : https://www.w3schools.com/js/js_json_parse.asp
 
 # JSON Stringify
 It is useful when you need to send a JavaScript object as JSON data (e.g., to a web API) or store it in a file or database.
+
+**res**
 
 Guide : https://www.w3schools.com/js/js_json_stringify.asp
