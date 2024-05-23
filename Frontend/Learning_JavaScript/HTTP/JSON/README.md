@@ -1,4 +1,4 @@
-# JSON
+# JavaScript Object Notation(JSON)
 **JSON IS TEXT!!!**
 
 It is a syntax for storing and exchanging data.
